@@ -1,0 +1,12 @@
+.gif[src*='#left'] {
+    float: left;
+}
+
+.gif[src*='#right'] {
+    float: right;
+}
+
+.gif[src*='#center'] {
+    display: inline-block;
+    margin: auto;
+}
