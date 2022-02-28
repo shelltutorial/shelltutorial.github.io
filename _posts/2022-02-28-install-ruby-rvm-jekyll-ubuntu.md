@@ -4,8 +4,7 @@ description: Learn how to install Ruby, RVM, Bundler and Jekyll on Ubuntu 20.04
 header: Install Ruby, RVM, Bundler and Jekyll on Ubuntu 20.04
 ---
 
-Jekyll is a framework used to generate static websites and is written in Ruby. Users can host webpages using their own github repositories.  
-RVM (Ruby Version Manager) is a manager used to switch among different ruby versions. It can switch from one ruby version to another ones inside your project folder without making a mess or breaking packages. It reminds the usage of PHPBrew.  
+Jekyll is a framework used to generate static websites and is written in Ruby. Users can host webpages using their own github repositories. RVM (Ruby Version Manager) is a manager used to switch among different ruby versions. It can switch from one ruby version to another ones inside your project folder without making a mess or breaking packages. It reminds the usage of PHPBrew.  
 Bundler is a gem installer. It provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.  
 
 Let's start. First of all, remove any package related to ruby:  
