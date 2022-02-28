@@ -77,7 +77,7 @@ Now, let's install Bundler and Jekyll:
 $ gem install bundler jekyll
 ~~~
 
-| ![fail](/assets/images/explosion.gif) |  |  **ATENTION: AVOID THE USAGE OF SUDO WHEN INSTALLING GEM**|
+| ![fail](/assets/images/explosion.gif) |  |  **ATTENTION: AVOID THE USAGE OF SUDO WHEN INSTALLING GEM**|
 
 Now you create a basic website or clone that one from repository:  
 
@@ -99,7 +99,21 @@ $ cd website
 bundle exec jekyll serve --trace
 ~~~
 
-Check your _config.yml file to see what plugins are beeing used. Open your Gemfile and put all the names there. Then install the plugins with:  
+Check your _config.yml file to see what plugins are beeing used. Open your Gemfile and put all the names there.  
+
+Example with your Gemfile:  
+
+~~~ ruby
+source "https://rubygems.org"
+gem 'jekyll-seo-tag'
+gem 'jekyll-paginate'
+gem 'jekyll-email-protect'
+gem 'jekyll-target-blank'
+gem 'jekyll-gist'
+gem "webrick", "~> 1.7"
+~~~
+
+Then install the plugins with:  
 
 ~~~ console
 $ bundle install
